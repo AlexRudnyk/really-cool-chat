@@ -1,16 +1,18 @@
-export const App = () => {
-  return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
-    </div>
-  );
-};
+import { useState } from 'react';
+
+import './App.css';
+
+import AuthPage from './AuthPage';
+import ChatsPage from './ChatsPage';
+
+function App() {
+  const [user, setUser] = useState(undefined);
+
+  if (!user) {
+    return <AuthPage onAuth={user => setUser(user)} />;
+  } else {
+    return <ChatsPage user={user} />;
+  }
+}
+
+export default App;
