@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/really-cool-chat/static/css/main.f79b88d5.css",
-    "main.js": "/really-cool-chat/static/js/main.4c54d73c.js",
+    "main.js": "/really-cool-chat/static/js/main.eb8a5ae2.js",
     "static/media/valley.jpeg": "/really-cool-chat/static/media/valley.e7396bfed7eb653279f1.jpeg",
     "index.html": "/really-cool-chat/index.html",
     "main.f79b88d5.css.map": "/really-cool-chat/static/css/main.f79b88d5.css.map",
-    "main.4c54d73c.js.map": "/really-cool-chat/static/js/main.4c54d73c.js.map"
+    "main.eb8a5ae2.js.map": "/really-cool-chat/static/js/main.eb8a5ae2.js.map"
   },
   "entrypoints": [
     "static/css/main.f79b88d5.css",
-    "static/js/main.4c54d73c.js"
+    "static/js/main.eb8a5ae2.js"
   ]
 }
